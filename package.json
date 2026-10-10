@@ -1,0 +1,26 @@
+{
+  "name": "plateforme-techniciens",
+  "version": "1.0.0",
+  "description": "Plateforme nationale de techniciens informatique certifiés",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "technicien",
+    "informatique",
+    "plateforme",
+    "certification",
+    "NINTI",
+    "annuaire"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

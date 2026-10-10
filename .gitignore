@@ -1,0 +1,30 @@
+# Dépendances
+node_modules/
+*/node_modules/
+
+# Environnement
+.env
+.env.local
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Build
+client/dist/
+client/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
